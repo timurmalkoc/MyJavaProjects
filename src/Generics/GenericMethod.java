@@ -17,6 +17,6 @@ public class GenericMethod {
         ArrayList<Integer> g3 = new ArrayList<>();
         g3.add(4);
         System.out.println(isEqual(g1,g2));
-        // System.out.println(isEqual(g1,g3));
+        // System.out.println(isEqual(g1,g3)); compile-time error
     }
 }
