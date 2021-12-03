@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        List<String> myList = new ArrayList<>();
+        List myList;
         myList = fill();
 
         System.out.println("item is status = " + search(myList,"C"));
